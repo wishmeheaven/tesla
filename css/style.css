@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face{font-family:Gotham SSm;font-weight:700;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Bold_Web.woff2) format("woff2")}@font-face{font-family:Gotham SSm;font-weight:500;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Medium_Web.woff2) format("woff2")}@font-face{font-family:Gotham SSm;font-weight:400;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Book_Web.woff2) format("woff2")}@font-face{font-family:Gotham SSm;font-weight:300;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Light_Web.woff2) format("woff2")}@font-face{font-family:Gotham SSm;font-weight:200;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-XLight_Web.woff2)}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+font-family: 'Gotham SSm','Roboto', sans-serif;
+}
+                                                                                                                                                                      
+
+#section-one {
+    position: relative;
+    display: block;
+    border: 2px solid rgb(47, 50, 225);
+    width: 100%;
+    /* background: url(../img/Model-3-Main.jpg) no-repeat calc(20% - 100px)/cover; */
+    background: url(../img/Model-3-Main.jpg) no-repeat center center/cover;
+    height: 100vh;
+    min-width: 80%;
+   font: #fff;
+  /* line-height: 1.7em; */
+}
+
+header {
+  display: inline-block;
+  border: 1px solid rgb(198, 167, 46);
+  width: 100%;
+  min-width: 80%;
+  height: 10%;
+  overflow: hidden;
+}
+
+.container #logo {
+  border: 1px solid red;
+  padding: 0 2px;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+#logo {
+  float: left;
+  width: 150px;
+  padding: 50px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+header #topnav-center {
+  top: 0;
+  border: 1px solid rgb(198, 167, 46);
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.nav-content {
+  border: 1px solid rgb(198, 46, 46);
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.nav-content li {
+  border: 1px solid rgb(198, 167, 46);
+  padding: 5px 8px;
+  margin: 0 3px;
+  padding: 10px;
+  font-size: 80%;
+}
+.nav-content li:hover {
+background-color: gray;  
+}
+
+#topnav-center .nav-content li {
+  float: left;
+}
+
+#topnav-right .nav-content li {
+  float: right;
+}
+
+header #topnav-right {
+  height: 100%;
+  float: right;
+  width: 24%;
+}
+
+.clr {
+  clear: both;
+}
+
+div {
+  border: 1px solid rgb(198, 167, 46);
+}
+
+.model {
+  border: 1px solid rgb(46, 145, 198);
+  width: 100%;
+  height: 60px;
+  margin: 10vh auto;
+  margin-bottom: 40vh;
+}
+
+.model .container {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 250px;
+  text-align: center;
+}
+.container h1 {
+  color: #fff;
+  font-size: 1.5em;
+}
+.container p {
+  font-size: 1em;
+}
+
+#sidenav {
+  /* display: block;
+  position: relative; */
+  border: 2px solid blue;
+  width: 50px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.45);
+  left: 10px;
+  z-index: 1;
+  float: left;
+  position: sticky;
+  top: 0;
+  /* display:none */
+}
+
+.sideline {
+top: 0;
+  position:sticky;
+  float: left;
+  width: 3px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+#sidenav .container .nav-content .sideline:hover {
+  cursor: pointer;
+  margin-left: 10px;
+  visibility: visible;
+  background-color: red;
+}
+
+#section-one .model-specs {
+  border: 2px solid rgb(198, 46, 195);
+  height: 70px;
+  color: #fff;
+  margin: 10px 300px;
+}
+      .model-specs .spec-item {
+        border: 3px solid rgb(198, 46, 46);
+        width: 20%;  
+        float: left;
+        margin: 5px;
+        text-align: center;
+      }
+
+     .model-specs h2 {
+        font-size: 2em;
+        width: 100%;
+      }
+      
+     .model-specs p {
+        border: 1px solid rgb(0, 208, 255);
+        font-size: 0.9em;
+        line-height: 1.1em;
+      }
+
+      .model-specs .box-buy {
+        text-align: center;
+        border: 3px solid #fff;
+        border-radius: 4px;
+        width: 20%;
+        float: left;
+        margin: 10px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .box-buy .btn-buy p {
+        border: 1px solid rgb(255, 50, 64);
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px 10px;
+        background-color: transparent;
+      }
+     
+
+      .model-specs {
+        float: left;
+        width: 75%;
+        min-width: 50%
+        border: 2px solid rgb(198, 46, 195);
+        height: 120px;
+        color: #fff;
+        margin: 340px auto 50px;
+        overflow: hidden;
+      }
+
+  /* margin-left: 300px; */
+
+/* .model-specs ul {
+  border: 1px solid rgb(255, 157, 0);
+  margin-left: 200px;
+  height: 100%;
+  width: 75%;
+} */
+/* 
+.model-specs .spec-item {
+  float: left;
+  margin: 0 50px;
+  text-align: center;
+}
+
+.model-specs h2 {
+  border: 1px solid rgb(46, 198, 129);
+  font-size: 2em;
+}
+.model-specs p {
+  font-size: 0.7em;
+  line-height: 10px;
+} */
+
+/* current-color{
+
+} */
+
+
+/* svg */
+/*
+#speedometer{
+    position: relative;
+    width: 50px;
+    height: 30px;
+}
+#speedometer .dial {
+    position: absolute;
+    rotate: 90deg;
+    width: 10%;
+    top: 55%;
+    right: 25%;
+    background-color: #fff;
+}
+#speedometer .outer{
+    bottom: 0%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#speedometer .inner .svg-color{
+    position: absolute;
+    width: 82%;
+    bottom: 5%;
+    left: 10%;
+}
+*/
+
+
+ .model-specs .box-buy {
+  text-align: center;
+  border:3px solid #fff;
+  border-radius: 4px;
+  width: 20%;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* #box-buy .btn-buy{
+  font-weight: bold;
+  font-size: 7px;
+} */
+
+.box-buy .btn-buy p{
+  border: 1px solid rgb(255, 50, 64);
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px 10px;
+  background-color: transparent;
+}
+
+/* Utilities*/
+
+
+/*backgound*/
+.bg-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-dark:hover {
+  background-color: #000;
+  color: #fff;
+
+}
+
+/*fonts*/
+/* .btn-buy:hover {
+  float: left;
+  margin: 0 auto;
+  padding: 4px;
+  font-size: 10px;
+  cursor: pointer;
+} */
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/*
+font-weight--book: 400;
+font-weight--light: 300;
+font-weight--medium: 500;
+font-weight--xlight: 200;
+*/
+      #section-two{              
+            display: block;
+            /* position: relative; */
+            width: 100vw;
+            /* height: 720px; */
+            border: 3px solid rgb(0, 136, 255);
+            /* background: url(../img/model-3-shield.jpg) no-repeat cover; */
+        }
+        /* #section-two .container{
+          margin-top: 40px;
+        } */
+
+        .safety-img {
+            border: 3px solid rgb(255, 0, 0);
+            background: url(../img/model-3-shield.jpg) no-repeat center center/cover;
+            float: left;
+            width:68%;
+            height: 720px;
+        }
+
+        .safety-aside {        
+            float: right;
+            border: 1px solid rgb(13, 255, 0);
+            width: 30%;
+            height: 720px;
+            padding: 30px 5px;
+        }
+
+        .safety-aside .header {
+            float: left;
+            border: 1px solid rgb(255, 0, 225);            
+            font-size: 1.5em;
+            width: 100%;
+            height: 15%;            
+        }
+        
+        .safety-aside .header h4 {    
+            top:1;
+            left:0;
+            font-size: 0.8em;
+            font-weight: 100;
+        }
+        .safety-aside .header h2 {
+            top:1;
+            left:0;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        
+        
+        .safety-aside .main {
+            float: left;
+            width: 100%;      
+            height: 70%;      
+            border: 1px solid rgb(255, 0, 225);    
+            
+        }
+        .safety-aside p {
+            font-size: 0.9em;
+            top:3vh;
+        }
+        .safety-aside span {
+            font-size: 1em;
+            /* top:3vh; */
+        }
+
+         .footer{
+          margin-top:30px;          
+          border: 1px solid rgb(255, 0, 225);    
+                   
+          width: 100%;
+          height: 15%;  
+        }
+         .safety-aside .footer .box-learn{
+            float:left;
+            padding:20px;
+            border: 1px solid rgb(255, 0, 225);    
+            width: 40%;
+        }
+         .safety-aside .footer .box-buy{
+            float:right;
+            padding:10px;
+            border: 1px solid rgb(255, 0, 225);    
+            width: 40%;            
+            min-width:40%;
+        }
+          .safety-aside .btn-buy{          
+          border: 1px solid rgb(255, 0, 225); 
+          text-align: center;
+          border:3px solid rgb(0, 0, 0);
+          border-radius: 4px;
+          padding: 8px;
+          font-weight: bold;
+          ;
+
+          cursor: pointer;                               
+          }
+          .btn-learn{
+          border: 1px solid rgb(255, 0, 225);    
+          }
+
+
+     #section-three {
+        position: relative;
+        margin: auto;
+        border: 2px solid rgb(47, 50, 225);
+        width: 100%;
+        background: url(./img/Model-3-Performance.jpg) no-repeat center
+        center/cover;
+        /* height: 500px; */
+      }
+
+      .model-specs {
+        float: left;
+        width: 75%;
+        min-width: 50%
+        border: 2px solid rgb(198, 46, 195);
+        height: 120px;
+        color: #fff;
+        margin: 340px auto 50px;
+        overflow: hidden;
+      }
+      
+      .model-specs .spec-item-perf {
+        border: 3px solid rgb(198, 46, 46);
+        width: 20%;
+        height: 100px;
+        float: right;
+        margin: 5px;
+        text-align: center;
+        
+      }
+
+      .model-specs h2 {
+        font-size: 2em;
+        width: 100%;
+      }
+      .model-specs p {
+        border: 1px solid rgb(0, 208, 255);
+        font-size: 0.9em;
+        line-height: 1.1em;
+      }
+
+      ul {
+        list-style: none;
+      }
+      .model-specs .box-buy {
+        text-align: center;
+        border: 3px solid #fff;
+        border-radius: 4px;
+        width: 20%;
+        float: left;
+        margin: 10px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .box-buy .btn-buy p {
+        border: 1px solid rgb(255, 50, 64);
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px 10px;
+        background-color: transparent;
+      }
+     
+
+      #performance-info{   
+        /* display: inline-block; */
+        height: 200px;
+        margin:0 auto;      
+        height: 200px;
+        width: 55%;
+        border: 1px solid rgb(222, 192, 0);
+      }
+        .performance-aside{
+            float: left;
+            height: 200px;
+            width: 40%;
+            border: 1px solid rgb(222, 0, 15); 
+        }
+        #performance-info .header {  
+          height: 100px;
+          padding: 20px;
+          width: 30%;
+
+        }
+        #performance-info .header h4 {  
+            width: 30%;
+            font-size: 1.2em;
+            font-weight: 100;
+        }
+        #performance-info .header h2 {
+            top: 40px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+         #performance-info .main {              
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 15px;
+            width: 65%;
+            height: 70%;
+            font-size: 1.1rem;
+               
+        }
+         .performance-aside .footer{           
+            margin-top: 60px;
+            margin-left: -15px;
+            width: 110%;
+            height: 75%;
+            text-align: center;
+            border: 1px solid rgb(105, 197, 24);                               
+        }
+         #performance-info .footer .box-learn{
+            float:left;
+            padding-top:5px;
+            
+            width: 30%;   
+            height: 100%;                               
+            
+        }
+         .performance-aside .footer .box-buy{
+          float: right;
+            padding:5px;
+            width: 70%;    
+            height:100%;        
+        }
+          .performance-aside .btn-buy{          
+          border: 1px solid rgb(255, 0, 225); 
+          text-align: center;
+          border:3px solid rgb(0, 0, 0);
+          border-radius: 4px;
+          font-weight: bold;
+          padding:5px;
+          cursor: pointer;                               
+          }
+          #section-three .btn-learn{
+            padding:5px;
+           border: 1px solid rgb(255, 0, 225);    
+          }
+        
+        .performance-aside p {
+            font-size: 0.9em;
+            top:3vh;
+        }
+        .performance-aside span {
+            font-size: 1em;
+            /* top:3vh; */
+        }

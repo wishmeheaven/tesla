@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SECTION-THREE</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #section-three {
+        position: relative;
+        margin: auto;
+        border: 2px solid rgb(47, 50, 225);
+        width: 100%;
+        background: url(./img/Model-3-Performance.jpg) no-repeat center
+          center/cover;
+        height: 500px;
+      }
+
+      .model-specs {
+        float: left;
+        width: 75%;
+        min-width: 50%
+        border: 2px solid rgb(198, 46, 195);
+        height: 120px;
+        color: #fff;
+        margin: 340px auto 50px;
+        overflow: hidden;
+      }
+
+      .model-specs .spec-item {
+        border: 3px solid rgb(198, 46, 46);
+        width: 20%;
+        height: 100px;
+        float: right;
+        margin: 5px;
+        text-align: center;
+      }
+
+      .model-specs h2 {
+        font-size: 2em;
+        width: 100%;
+      }
+      .model-specs p {
+        border: 1px solid rgb(0, 208, 255);
+        font-size: 0.9em;
+        line-height: 1.1em;
+      }
+
+      ul {
+        list-style: none;
+      }
+      .model-specs .box-buy {
+        text-align: center;
+        border: 3px solid #fff;
+        border-radius: 4px;
+        width: 20%;
+        float: left;
+        margin: 10px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .box-buy .btn-buy p {
+        border: 1px solid rgb(255, 50, 64);
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px 10px;
+        background-color: transparent;
+      }
+     
+
+      #performance-info{   
+        /* display: inline-block; */
+        height: 200px;
+        margin:0 auto;      
+        height: 200px;
+        width: 55%;
+        border: 1px solid rgb(222, 192, 0);
+      }
+        .performance-aside{
+            float: left;
+            height: 200px;
+            width: 40%;
+            border: 1px solid rgb(222, 0, 15); 
+        }
+        #performance-info .header {  
+          height: 100px;
+          padding: 20px;
+          width: 30%;
+
+        }
+        #performance-info .header h4 {  
+            width: 30%;
+            font-size: 1.2em;
+            font-weight: 100;
+        }
+        #performance-info .header h2 {
+            top: 40px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+         #performance-info .main {              
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 15px;
+            width: 65%;
+            height: 70%;
+            font-size: 1.1rem;
+               
+        }
+         .performance-aside .footer{           
+            margin-top: 60px;
+            margin-left: -15px;
+            width: 110%;
+            height: 75%;
+            text-align: center;
+            border: 1px solid rgb(105, 197, 24);                               
+        }
+         #performance-info .footer .box-learn{
+            float:left;
+            padding-top:3px;
+            border: 1px solid rgb(255, 0, 225);    
+            width: 20%;   
+            height: 100%;                               
+            
+        }
+         .performance-aside .footer .box-buy{
+          float: right;
+            padding:5px;
+            width: 70%;    
+            height:100%;        
+        }
+          .performance-aside .btn-buy{          
+          border: 1px solid rgb(255, 0, 225); 
+          text-align: center;
+          border:3px solid rgb(0, 0, 0);
+          border-radius: 4px;
+          font-weight: bold;
+          padding:5px;
+          cursor: pointer;                               
+          }
+          .btn-learn{          
+           border: 1px solid rgb(255, 0, 225);    
+          }
+        
+        .performance-aside p {
+            font-size: 0.9em;
+            top:3vh;
+        }
+        .performance-aside span {
+            font-size: 1em;
+            /* top:3vh; */
+        }
+
+          .clr{
+            clear:both;
+          }
+    </style>
+  </head>
+
+  <body>
+    <section id="section-three">
+      <section class="model-specs">
+          <ul class="specs-content">
+            <li>
+              <div class="spec-item">
+                <h2 class="spec-title">3.1s</h2>
+                <p class="spec-info">
+                  Quickest acceleration—from zero to 60<br />mph* in as little
+                  as 3.1 seconds
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="spec-item">
+                <h2 class="spec-title">162mi</h2>
+                <p class="spec-info">
+                  Improved handling and aerodynamics<br />allow for a top speed
+                  of 162 mph
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="spec-item">
+                <h2 class="spec-title">AWD</h2>
+                <p class="spec-info">
+                  Dual Motor All-Wheel Drive instantly<br />controls traction
+                  and torque, in all weather<br />conditions
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+<div class="clr"></div>
+       <div id="performance-info">
+        <div class="performance-aside header">
+            <h4>Performance</h4>
+            <h2>Quickest Acceleration</h2>
+
+      <div class="performance-aside footer">
+            <div class="box-learn">
+              <p class="btn-learn">Learn More</p>
+            </div>
+            <div class="box-buy">
+              <p class="btn-buy">Buy Now</p>
+            </div>
+          </div>
+
+          </div>
+          
+          <div class="performance-aside main">
+            <p>
+              Model 3 comes with the option of dual motor all-wheel drive, 20”
+              Überturbine Wheels and Performance Brakes for total control in all
+              weather conditions. A carbon fiber spoiler improves stability at
+              high speeds, all allowing Model 3 to accelerate from 0-60 mph* in
+              as little as 3.1 seconds. <a href="#">Chat with a Tesla Advisor</a> to learn more
+              about Model 3 or <a href="#">schedule a demo drive today</a>.
+            </p>
+          </div>
+
+
+          <!-- <div class="clr"></div> -->
+        <!-- </div> --></div>
+    </section>
+  </body>
+</html>
